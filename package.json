@@ -2,10 +2,10 @@
   "name": "tp-tailwindcss",
   "version": "1.0.0",
   "description": "## Bienvenue chers codeurs ! 👋",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "tailwindcss build -i style.css -o output.css --watch"
+    "build:css": "tailwindcss build -i ./css/style.css -o ./css/output.css --watch"
   },
   "repository": {
     "type": "git",
