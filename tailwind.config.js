@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './index.html'
-  ],
+  content: ["./index.html"],
   theme: {
     extend: {
       colors: {
@@ -11,20 +9,20 @@ module.exports = {
           red: "hsl(5, 85%, 63%)",
         },
         neutral: {
-          'off-white': 'hsl(36, 100%, 99%)',
-          'grayish-blue': 'hsl(233, 8%, 79%)',
-          'dark-grayish-blue': 'hsl(236, 13%, 42%)',
-          'very-dark-blue': 'hsl(240, 100%, 5%)',
+          "off-white": "hsl(36, 100%, 99%)",
+          "grayish-blue": "hsl(233, 8%, 79%)",
+          "dark-grayish-blue": "hsl(236, 13%, 42%)",
+          "very-dark-blue": "hsl(240, 100%, 5%)",
         }
       },
-      'font-size': {
-        paragraph: '20px'      
+      fontFamily: {
+        body: ["Inter", "sans-serif"],
       },
-      'fontfamily': {
-        body: ['Inter', 'sans-serif']
-      }
+      fontSize: {
+        paragraph: "20px",
+      },
+      
     },
   },
   plugins: [],
-}
-
+};
