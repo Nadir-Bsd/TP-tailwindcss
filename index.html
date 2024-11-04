@@ -25,7 +25,7 @@
     <header class="my-10">
       <nav class="w-full flex justify-between">
         <img src="./assets/images/logo.svg" alt="">
-        <div class="flex flex-col justify-center w-[14%] gap-1">
+        <div class="flex flex-col justify-center w-[14%] gap-1 max-w-14">
         <hr class="h-1 w-full bg-slate-950">
         <hr class="h-1 w-full bg-slate-950">
         <hr class="h-1 w-full bg-slate-950">
@@ -35,45 +35,55 @@
     <!------------------------------------------------------->
   
   
-  
-    <!-------------------- FIRSTE ------------------------->
-    <section class="flex flex-col gap-10 my-5">
-      <div class="w-full"><img src="./assets/images/image-web-3-mobile.jpg" alt=""></div>
-      <div class="flex flex-col gap-5">
-        <h1 class="text-neutral-very-dark-blue text-5xl font-extrabold">The Bright Future of Web 3.0?</h1>
-        <p class="text-neutral-dark-grayish-blue font-normal text-sm leading-7">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-          But is it really fulfilling its promise?</p>
-          <button class="bg-primary-red text-neutral-off-white text-center text-lg py-2 px-5 w-[50%] font-medium">READ MORE</button>
+    <div class="flex flex-col gap-5 w-full lg:flex-row">
+      <!-------------------- FIRSTE ------------------------->
+      <section class="flex flex-col gap-10 my-5 lg:w-[65%] md:my-0">
+        
+      <div class="w-full md:hidden">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="">
       </div>
-     </section>
-    <!------------------------------------------------------->
+      
+      <div class="w-full hidden md:block">
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="">
+      </div>
+      
+      <div class="flex gap-5 flex-col w-full sm:flex-row sm:gap-10">
+        <h1 class="text-neutral-very-dark-blue text-5xl font-extrabold sm:w-[45%] md:w-[45%]">The Bright Future of Web 3.0?</h1>
+        <div class="flex flex-col gap-5 sm:w-[50%] md:w-[47%]">
+          <p class="text-neutral-dark-grayish-blue font-normal text-sm leading-7 max-w-96">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?</p>
+            <button class="bg-primary-red text-neutral-off-white text-center text-lg py-2 px-5 w-[50%] max-w-48 font-medium">READ MORE</button>
+          </div>
+        </div>
+      </section>
+      <!------------------------------------------------------->
     
     
     
-    
-    <!-------------------- SECOND ------------------------->
-    <section class="flex flex-col gap-7 my-16 p-6 bg-neutral-very-dark-blue p4">
+      <!-------------------- SECOND ------------------------->
+      <section class="flex flex-col gap-7 my-16 p-6 bg-neutral-very-dark-blue p4 w-full lg:w-[30%] md:my-0">
       <h2 class="text-primary-orange text-3xl font-bold">New</h2>
-
+      
       <article class="flex flex-col gap-2">
         <h3 class="text-neutral-off-white font-bold text-lg">Hydrogen VS Electric Cars</h3>
         <p class="text-neutral-grayish-blue text-sm leading-7">What are the possible adverse effects of on-demand AI image generation?</p>
-        <hr class="h-1 border-neutral-dark-grayish-blue w-full mt-5">
       </article>
-
+      <hr class="h-1 border-neutral-dark-grayish-blue w-full mt-5">
+      
       <article class="flex flex-col gap-2">
         <h3 class="text-neutral-off-white font-bold text-lg">The Downsides of AI Artistry</h3>
         <p class="text-neutral-grayish-blue text-sm leading-7">Will hydrogen-fueled cars ever catch up to EVs?</p>
-        <hr class="h-1 border-neutral-dark-grayish-blue w-full mt-5">
       </article>
-
+      <hr class="h-1 border-neutral-dark-grayish-blue w-full mt-5">
+      
       <article class="flex flex-col gap-2">
         <h3 class="text-neutral-off-white font-bold text-lg">Is VC Funding Drying Up?</h3>
         <p class="text-neutral-grayish-blue text-sm leading-7">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
       </article>
-    </section>
-    <!------------------------------------------------------->
-    
+      </section>
+      <!------------------------------------------------------->
+    </div>
+
 
     <!-------------------- LAST ------------------------->
     <section class="flex flex-col my-10 gap-5 w-full">
